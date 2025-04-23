@@ -16,7 +16,7 @@
 6. Dar el nombre y la nota del estudiante*/
 
 
-let listaNombres = ['Leandro', 'Miguel', 'Dario', 'Susanita', 'juan,,'];
+let listaNombres = ['Leandro', 'Miguel', 'Dario', 'Susanita', 'juan,,', 'Fau'];
 let indiceAleatorio = Math.floor(Math.random() * listaNombres.length);
 let nombre = listaNombres[indiceAleatorio];
 console.log('Nombre del estudiante: ' + nombre);
